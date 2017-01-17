@@ -3729,9 +3729,7 @@
 			}
 
 		}
-#two p{
-font-weight: 100;
-}
+
 
 
 /* Footer */
@@ -3756,7 +3754,10 @@ font-weight: 100;
 				margin-left: 0;
 				padding-left: 0;
 			}
-
+			#footer .icons {
+			    font-size: 1.25em;
+					text-align: center;
+			}
 	@media screen and (max-width: 480px) {
 
 		#footer .copyright li {
