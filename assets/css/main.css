@@ -3547,6 +3547,77 @@
 #donate-banner.style6:after {
 	background-color: #87c5a4;
 }
+body.is-loading #donate-banner:after {
+  opacity: 1.0;
+}
+
+body.is-loading #donate-banner > .inner {
+  -moz-filter: blur(0.125em);
+  -webkit-filter: blur(0.125em);
+  -ms-filter: blur(0.125em);
+  filter: blur(0.125em);
+  -moz-transform: translateX(-0.5em);
+  -webkit-transform: translateX(-0.5em);
+  -ms-transform: translateX(-0.5em);
+  transform: translateX(-0.5em);
+  opacity: 0;
+}
+
+@media screen and (max-width: 1280px) {
+
+  #donate-banner {
+    background-attachment: scroll;
+  }
+
+}
+
+@media screen and (max-width: 736px) {
+
+  #donate-banner {
+    padding: 5em 0 1em 0 ;
+    height: auto;
+    margin-bottom: -2.75em;
+    max-height: none;
+    min-height: 0;
+    top: -2.75em;
+  }
+
+    #donate-banner h1 {
+      font-size: 2em;
+    }
+
+    #donate-banner > .inner .content {
+      display: block;
+    }
+
+      #donate-banner > .inner .content > * {
+        margin-left: 0;
+        margin-bottom: 2em;
+      }
+
+    #donate-banner.major {
+      height: 80vh;
+      min-height: 0;
+      max-height: none;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  #donate-banner {
+    padding: 6em 0 2em 0 ;
+  }
+
+    #donate-banner > .inner .content p br {
+      display: none;
+    }
+
+    #donate-banner.major {
+      padding: 8em 0 4em 0 ;
+    }
+
+}
 /* main Banner */
 
 	#banner {
