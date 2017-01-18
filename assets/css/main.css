@@ -3729,9 +3729,30 @@
 			}
 
 		}
-
-
-
+#three header.major {
+		text-align: center !important;
+		width: -moz-max-content;
+    width: initial;
+    width: -ms-max-content;
+    width: initial;
+    margin-bottom: 2em;
+}
+#three .major h2{
+	color: #37a6cb !important;
+	letter-spacing: 0.025em;
+	text-shadow: 1px 0px 4px #37a6cb;
+	font-size: xx-large;
+}
+#three .button{
+	background-color: #ec8d81;
+}
+#three .inner h3 {
+	font: 20px 'robotolight';
+	color: #37a6cb !important;
+  margin: 12px auto 68px;
+	width: 85%;
+	max-width: 1010px;
+}
 /* Footer */
 
 	#footer .copyright {
