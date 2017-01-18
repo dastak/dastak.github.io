@@ -3394,8 +3394,160 @@
 				}
 
 		}
+		.paytm img {
+			height: 220px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
 
-/* Banner */
+		}
+/* Donate Banner */
+#donate-banner {
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	background-image: url("../../images/donate-banner.jpg");
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	padding: 6em 0 2em 0 ;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 0 !important;
+	cursor: default;
+	height: 60vh;
+	margin-bottom: -3.25em;
+	max-height: 32em;
+	min-height: 22em;
+	position: relative;
+	top: -3.25em;
+}
+#donate-banner:after {
+	-moz-transition: opacity 2.5s ease;
+	-webkit-transition: opacity 2.5s ease;
+	-ms-transition: opacity 2.5s ease;
+	transition: opacity 2.5s ease;
+	-moz-transition-delay: 0.75s;
+	-webkit-transition-delay: 0.75s;
+	-ms-transition-delay: 0.75s;
+	transition-delay: 0.75s;
+	-moz-pointer-events: none;
+	-webkit-pointer-events: none;
+	-ms-pointer-events: none;
+	pointer-events: none;
+	background-color: #000000;
+	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
+	opacity: 0.8;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+#donate-banner h1 {
+	font-size: 3.25em;
+	text-shadow: 3px -2px 13px #000;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+#donate-banner > .inner {
+	-moz-transition: opacity 1.5s ease, -moz-transform 0.5s ease-out, -moz-filter 0.5s ease, -webkit-filter 0.5s ease;
+	-webkit-transition: opacity 1.5s ease, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s ease, -webkit-filter 0.5s ease;
+	-ms-transition: opacity 1.5s ease, -ms-transform 0.5s ease-out, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
+	transition: opacity 1.5s ease, transform 0.5s ease-out, filter 0.5s ease, -webkit-filter 0.5s ease;
+	padding: 0 !important;
+	position: relative;
+	z-index: 2;
+}
+
+	#donate-banner > .inner .image {
+		display: none;
+	}
+
+	#donate-banner > .inner header {
+		width: auto;
+	}
+
+		#donate-banner > .inner header > :first-child {
+			width: auto;
+		}
+
+			#donate-banner > .inner header > :first-child:after {
+				max-width: 100%;
+			}
+
+	#donate-banner > .inner .content {
+/*		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center; */
+		margin: 0 0 2em 0;
+		text-align: center;
+	}
+
+		#donate-banner > .inner .content > * {
+			margin-left: 1.5em;
+			margin-bottom: 0;
+		}
+
+		#donate-banner > .inner .content > :first-child {
+			margin-left: 0;
+		}
+
+		#donate-banner > .inner .content p {
+			font-size: 0.7em;
+			font-weight: 600;
+			letter-spacing: 0.25em;
+			text-transform: uppercase;
+		}
+
+
+
+
+#donate-banner.major {
+	height: 80vh;
+	min-height: 30em;
+	max-height: 50em;
+}
+
+	#donate-banner.major.alt {
+		opacity: 0.75;
+	}
+
+#donate-banner.style1:after {
+	background-color: #6fc3df;
+}
+
+#donate-banner.style2:after {
+	background-color: #8d82c4;
+}
+
+#donate-banner.style3:after {
+	background-color: #ec8d81;
+}
+
+#donate-banner.style4:after {
+	background-color: #e7b788;
+}
+
+#donate-banner.style5:after {
+	background-color: #8ea9e8;
+}
+
+#donate-banner.style6:after {
+	background-color: #87c5a4;
+}
+/* main Banner */
 
 	#banner {
 		-moz-align-items: center;
@@ -3510,7 +3662,7 @@
 				}
 
 		#banner.major {
-			height: 100vh;
+			height: 80vh;
 			min-height: 30em;
 			max-height: 50em;
 		}
