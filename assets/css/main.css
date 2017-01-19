@@ -3733,7 +3733,7 @@ body.is-loading #donate-banner > .inner {
 				}
 
 		#banner.major {
-			height: 80vh;
+			height: 100vh;
 			min-height: 30em;
 			max-height: 50em;
 		}
