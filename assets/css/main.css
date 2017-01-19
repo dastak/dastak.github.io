@@ -3741,9 +3741,7 @@ body.is-loading #donate-banner > .inner {
 			#banner.major.alt {
 				opacity: 0.75;
 			}
-#panel_2.collapsible strong{
-	color: #6f6666;
-}
+
 		#banner.style1:after {
 			background-color: #6fc3df;
 		}
