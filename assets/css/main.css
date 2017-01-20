@@ -4720,7 +4720,7 @@ body.is-loading #about-banner > .inner {
 			}
 
 			.gallery-tile article.gallery-style2 > .gallery-image:before {
-				background-color: #7ecaf6;
+				background-color: rgba(126, 202, 246, 0.58);;
 			}
 
 			.gallery-tile article.gallery-style3 > .gallery-image:before {
