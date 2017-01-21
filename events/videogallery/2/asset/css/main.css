@@ -4711,7 +4711,7 @@ body.is-loading #about-banner > .inner {
 					opacity: 0;
 				}
 
-			.gallery-tile article > a .gallery-content > :last-child {
+					.gallery-tile article > a .gallery-content > :last-child {
 						margin-bottom: 0;
 					}
 
@@ -4720,15 +4720,15 @@ body.is-loading #about-banner > .inner {
 			}
 
 			.gallery-tile article.gallery-style2 > .gallery-image:before {
-				background-color: rgba(126, 202, 246, 0.58);
+				background-color: rgba(126, 202, 246, 0.58);;
 			}
 
 			.gallery-tile article.gallery-style3 > .gallery-image:before {
-				background-color: rgba(47, 93, 32, 0.71);
+				background-color: #7bd0c1;
 			}
 
 			.gallery-tile article.gallery-style4 > .gallery-image:before {
-				background-color: rgba(236, 141, 129, 0.45);
+				background-color: #c75b9b;
 			}
 
 			.gallery-tile article.gallery-style5 > .gallery-image:before {
