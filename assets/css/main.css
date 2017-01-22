@@ -5239,7 +5239,7 @@ margin-bottom: 38px;
 		/*  sticky notification */
 		.home-fixed {
 		    position: fixed;
-		    top: 90%;
+		    top: 80%;
 				width: 70px;
 				height: 50px;
 		    right: 0;
