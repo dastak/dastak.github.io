@@ -14,9 +14,22 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
 	</head>
 	<body>
+		<div class="curtain">
+			<div class="curtain__wrapper">
+				<input type="checkbox" checked>
 
+				<div class="curtain__panel curtain__panel--left">
+				<!--  <h1>Click to reveal&nbsp;	</h1>-->
+				<div style="width: 100%; height:20px; background-color: #AC0202;">
+					<img src="images/ribbon1.png" style="float: right;" />
+				</div>
+
+				</div> <!-- curtain__panel -->
+
+				<div class="curtain__content">
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -174,6 +187,13 @@
 									</ul>
 								</div>
 							</section>
+
+							<!-- Video -->
+							<section style="padding-bottom: 5px; padding-top: 5px; background-color: #ffffff;">
+	 						<div class="video-container">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/4HYQGcV7fvA" frameborder="0" allowfullscreen></iframe>
+							</div>
+							</section>
 							<section id="three" style="background-color:white;">
 								<div class="inner">
 									<header class="major">
@@ -188,100 +208,51 @@
 									</ul>
 								</div>
 							</section>
-							<!-- Video -->
-							<section>
-	 						<div class="video-container">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/4HYQGcV7fvA" frameborder="0" allowfullscreen></iframe>
-							</div>
-							</section>
-							<!-- slider -->
-							<section style="background-color: #ececec !important;">
+							<!-- Glimpses of events -->
+							<section style="background-color: rgb(223, 228, 255) !important;">
 								<div class="inner">
 									<header class="major" style=" text-align: center !important; width: -moz-max-content; width: initial; width: -ms-max-content; width: initial; margin-bottom: 2em;">
-										<h2 style="color: #37abde !important; text-transform: uppercase; font-size: xx-large;">Gallery</h2>
+										<h2 style="color: #ff6868 !important; text-transform: uppercase; font-size: xx-large;">GLIMPSES OF EVENTS</h2>
 									</header>
+									<h3 style="color: #a76767; font-weight: 100; font-size: 16px;">We have taken a few steps towards achieving our goals, we conducted few events at various places, here is the glimpse of our journey so far.</h3>
+
 								</div>
 								<div class="box alt">
 									<div class="row 50% uniform">
 										<div class="4u"><span class="image fit"><img src="images/port01.jpg" alt="" /></span></div>
 										<div class="4u"><span class="image fit"><img src="images/port02.jpg" alt="" /></span></div>
-										<div class="4u$"><span class="image fit"><img src="images/port03.jpg" alt="" /></span></div>
-
+										<div class="4u"><span class="image fit"><img src="images/port03.jpg" alt="" /></span></div>
 									</div>
 									<ul class="actions" style="text-align: center !important; margin-top: 20px;">
-										<li style="background-color: #36cdff;"><a href="gallery.html" class="button next">View Our Gallery</a></li>
+										<li style="background-color: #36cdff;"><a href="gallery.html" class="button special fit small">View Our Gallery</a></li>
 									</ul>
 								</div>
+
 										<!-- Break -->
-
-								<div class="box alt">
-									<div class="row 50% uniform">
-										<div><iframe width="440" height="248" src="https://www.youtube.com/embed/vU4x4Mo1mJs" frameborder="0" allowfullscreen></iframe></div>
-										<div><iframe width="440" height="248" src="https://www.youtube.com/embed/HI_1wI7PY6c" frameborder="0" allowfullscreen></iframe></div>
-										<div><iframe width="440" height="248" src="https://www.youtube.com/embed/6HKjFO5Uuvs" frameborder="0" allowfullscreen></iframe></div>
+										<div id='wrapper' style='text-align:center;'>
+    								<div style='float:left;width:49%;'>
+										<div align="center" class="video-container"><iframe width="440" height="230" src="https://www.youtube.com/embed/vU4x4Mo1mJs" frameborder="0" allowfullscreen></iframe></div>
+    								</div>
+    										<div style='float:right;width:49%;'>
+													<div align="center" class="video-container"><iframe width="440" height="230" src="https://www.youtube.com/embed/HI_1wI7PY6c" frameborder="0" allowfullscreen></iframe></div>
+    								</div>
 									</div>
-									<ul class="actions" style="text-align: center !important;  margin-top: 20px; padding-bottom: 20px;">
-										<li style="background-color: #36cdff;"><a href="gallery.html#linkingfromhome" class="button next">View Our Video Gallery</a></li>
-									</ul>
-								</div>
-		</section>
-						<!-- end -->
-
+									<div>
+										<ul class="actions" style="text-align: center !important;  margin-top: 20px; padding-bottom: 20px;">
+											<li style="margin-top: 20px;"><a href="gallery.html#linkingfromhome" class="button special fit small">View Our Video Gallery</a></li>
+										</ul>
+										<style>
+										ul.actions li:last-child {
+    										padding-right: 0;
+    										background-color: rgba(255, 255, 255, 0);
+												}
+										</style>
+									</div>
+							</section>
 					</div>
 
-
 					<!-- end -->
-				<!-- Contact
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="field half first">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6"></textarea>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="special" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">contactdastak@gmail.com</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(+91) 9711377855</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon alt fa-home"></span>
-										<h3>Address</h3>
-										<span> 2044, Outram Line,<br />
-										Kingsway Camp, Delhi-110009,<br />
-										India</span>
-									</div>
-								</section>
-							</section>
-						</div>
-					</section>
--->
+
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
@@ -305,7 +276,17 @@
 					</footer>
 
 			</div>
+		</div>
 
+		<div class="curtain__panel curtain__panel--right">
+		<!--<h1>a special reward...</h1>-->
+		<div style="width: 100%; height:20px; background-color: #AC0202;">
+		<img src="images/ribbon2.png" style="float: left;" />
+		</div>
+		</div> <!-- curtain__panel -->
+
+		</div> <!-- curtain__wrapper -->
+		</div> <!-- curtain -->
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
